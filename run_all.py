@@ -408,4 +408,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    from embed import OllamaNotRunningError
+
+    try:
+        main()
+    except OllamaNotRunningError as error:
+        raise SystemExit(f"ContextRAG could not build an index: {error}") from error

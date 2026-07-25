@@ -63,7 +63,8 @@ export RAG_MEMORY_DIRS="/absolute/path/to/agent-memory:/another/allowed/root"
 
 Generated `index/`, `transcripts/`, `.mcp.json`, environment files, and local
 source material are ignored by Git. Do not commit data you do not have the
-right to publish.
+right to publish. See [DATA_HANDLING.md](DATA_HANDLING.md) for the release
+boundary used by this repository.
 
 ## MCP server
 
