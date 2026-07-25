@@ -1,0 +1,11 @@
+# Minimal public evaluation fixtures for the synthetic example corpus.
+# Replace with a versioned, licensed corpus and task-specific labels for a
+# real retrieval benchmark.
+queries:
+  - query: "why combine dense search with BM25"
+    expected_keywords: ["dense", "BM25", "reciprocal-rank"]
+    category: retrieval
+
+  - query: "how does cross encoder reranking work"
+    expected_keywords: ["cross-encoder", "reranks"]
+    category: retrieval
