@@ -1,0 +1,9 @@
+[project]
+name = "context-rag"
+version = "0.1.0"
+description = "Local-first hybrid retrieval for agent context."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

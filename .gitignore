@@ -1,0 +1,19 @@
+# Local configuration and Python tooling
+.env
+.mcp.json
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# User-owned source material and derived retrieval artifacts
+index/
+transcripts/
+data/
+results/
+*_backup_*/
+
+# Editor and operating-system files
+.DS_Store
+.vscode/
+.idea/
